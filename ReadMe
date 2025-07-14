@@ -1,1 +1,15 @@
 # tools
+
+
+# Absolute Paths:
+Paths that fully determine the location of a file -- $PATH
+- writing a program that runs a program that we want to run from any where:
+	- give its absolute path or the name of the command itself so the shell can find it
+
+# Relative path:
+Relative to where we currently are -- use pwd to see where we are
+All relative paths are relative to where you currently are
+
+. -- current directory
+.. -- parent directory 
+
