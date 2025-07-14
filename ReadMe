@@ -13,3 +13,14 @@ All relative paths are relative to where you currently are
 . -- current directory
 .. -- parent directory 
 
+
+
+cd: 
+
+cd - : it will cd to the previous directory we were in -- we can use this to toggle between different directories 
+
+Flags & Options:
+
+They start with a dash (-)
+
+For Mac we use man <cmd>
