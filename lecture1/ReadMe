@@ -1,0 +1,67 @@
+# tools
+
+
+# Absolute Paths:
+Paths that fully determine the location of a file -- $PATH
+- writing a program that runs a program that we want to run from any where:
+	- give its absolute path or the name of the command itself so the shell can find it
+
+# Relative path:
+Relative to where we currently are -- use pwd to see where we are
+All relative paths are relative to where you currently are
+
+. -- current directory
+.. -- parent directory 
+
+
+
+cd: 
+
+cd - : it will cd to the previous directory we were in -- we can use this to toggle between different directories 
+
+Flags & Options:
+
+They start with a dash (-)
+
+
+
+Mv - rename a file 
+
+Cp - lets us cp a file > cp copyFrom andCopyTo
+
+Use Manual Pages:
+
+For Mac we use man <cmd>
+
+
+The Power of The shell: comes when we chain programs together and when we start combining different programs
+
+Interacting files with others.
+
+Streams:
+
+Input stream: keyboard input
+
+Output Stream: output from terminal 
+
+The shell allows us to point the input and output is pointed 
+
+< -- rewire the input of providing file to be the contents of this file
+
+> -- rewires the output of the proceeding file "echo hello > hello.txt"
+
+cat - prints the content of a file:  cat hello.txt -- would print hello
+	- it also supports <
+
+Cat < hello.txt --- this will take the input from hello.txt, the shell opens hello.txt, takes the content, gives the input to cat and outputs it using cat
+
+
+Appending: 
+
+>> : appending the text instead of overwrite
+
+Pipe:
+
+ |  - takes the output of the program from the left and makes it the input to the file to the 		right 	
+
+- this allows us to chain commands, works with text and images/video
