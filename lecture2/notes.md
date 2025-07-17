@@ -47,4 +47,11 @@ dev/null -- we can write as much as we want and it will be discarded
 man test :
 - for comparisons or checking if things exists 
 
+When writing scripts: PAY ATTENTION TO THE SPACES
+Remember to have !/bin/sh
 
+Globaing with ls:
+- searching for files using regex
+- convert image.{png,jpg} 
+    - touch foo{,1,2,3,4,5} -- make several foos
+    - touch project{1,2}/src/test/test{1,2,3}.py -- this will make project1/src/test/test1.py: project1/src/test/test2.py etc
