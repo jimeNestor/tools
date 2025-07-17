@@ -55,3 +55,12 @@ Globaing with ls:
 - convert image.{png,jpg} 
     - touch foo{,1,2,3,4,5} -- make several foos
     - touch project{1,2}/src/test/test{1,2,3}.py -- this will make project1/src/test/test1.py: project1/src/test/test2.py etc
+
+
+diff <(ls <path>) <(ls <path>)   -- this gives us the difference between both paths
+
+She Bang:
+
+#!/usr/bin/env python -- when we compile, this will run the env command and for every system this is where bin lives, this will use the environment and send python as an argument  -- allows for scripts to be ran in all machines without requiring a script to exists somewhere in particular 
+
+
