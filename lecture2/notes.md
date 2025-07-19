@@ -81,3 +81,10 @@ how to find commands previously used:
 - history command
 - control + r - allows us to type in command that we have used before and bring it up
 - fzf -- fast finder -- interactive grep -- cat example.sh | fzf -- this will allow us to look something in a file 
+
+Dynamically search command as we type:
+
+
+
+Going places:
+- auto jump: 
