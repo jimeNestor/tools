@@ -63,4 +63,14 @@ She Bang:
 
 #!/usr/bin/env python -- when we compile, this will run the env command and for every system this is where bin lives, this will use the environment and send python as an argument  -- allows for scripts to be ran in all machines without requiring a script to exists somewhere in particular 
 
+ It is good practice to write shebang lines using the env command that will resolve to wherever the command lives in the system, increasing the portability of your scripts
+ 
+ 
+ 
+Find: 
+- command to use to find a a file
+- find can find stuff and do stuff when those files are found -- like finding a file and then having rm (to remove)
+
+Locate ** look into
+
 
